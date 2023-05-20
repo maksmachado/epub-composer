@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta name="dtb:uid" content="a5cff538-0e5a-4a91-80f8-c8166732897a"/>
+    <meta name="dtb:depth" content="1"/>
+    <meta name="dtb:maxPageNumber" content="1"/>
+  </head>
+  <docTitle/>
+  <docAuthor/>
+  <navMap>
+    <navPoint id="toc" playOrder="0" class="chapter">
+      <navLabel>
+        <text>Table Of Contents </text>
+        <content src="toc.xhtml"/>
+      </navLabel>
+    </navPoint>
+    <navPoint id="0_capitulo_1" playerOrder="1" class="chapter">
+      <navLabel>
+        <text>1. Capítulo 1</text>
+        <content src="SECTIONS/0_capitulo_1.xhtml"/>
+      </navLabel>
+    </navPoint>
+    <navPoint id="1_capitulo_2" playerOrder="2" class="chapter">
+      <navLabel>
+        <text>2. Capítulo 2</text>
+        <content src="SECTIONS/1_capitulo_2.xhtml"/>
+      </navLabel>
+    </navPoint>
+  </navMap>
+</ncx>
