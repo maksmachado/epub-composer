@@ -13,10 +13,16 @@
   "keywords": [
     "epub"
   ],
+  "type": "module",
   "author": "Maks Machado",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/maksmachado/epub-composer/issues"
   },
-  "homepage": "https://github.com/maksmachado/epub-composer#readme"
+  "homepage": "https://github.com/maksmachado/epub-composer#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "jszip": "^3.10.1",
+    "xml2js": "^0.5.0"
+  }
 }
