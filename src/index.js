@@ -45,7 +45,7 @@ export class Epub {
 
     }
 
-    async public() {
+    async compose() {
         const style = fs.readFileSync(path.join(__dirname, '../files/style.css'));
         this.#OEBPS.file('style.css', style);
         this.#setCover();
