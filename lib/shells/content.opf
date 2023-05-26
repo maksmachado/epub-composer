@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="BookId" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en" xmlns:media="http://www.idpf.org/epub/vocab/overlays/#" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
-    <dc:title>Meu Primeiro Epub</dc:title>
-    <dc:creator id="creator">Maks Machado</dc:creator>
-    <dc:publisher>Nft Books</dc:publisher>
-    <dc:date>2023-05-20T13:34:52.844Z</dc:date>
-    <dc:identifier id="BookId">a5cff538-0e5a-4a91-80f8-c8166732897a</dc:identifier>
-    <dc:language>en</dc:language>
-    <dc:rights>Copyright &amp;#x00A9; 2023 by Nft Books</dc:rights>
+    <meta name="generator" content="epub-composer" />
+
   </metadata>
   <manifest>
     <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
     <item href="toc.xhtml" id="toc" media-type="application/xhtml+xml" properties="nav"/>
-    <item href="style.css" id="css" media-type="text/css"/>
-    <item href="SECTIONS/0_capitulo_1.xhtml" id="0_capitulo_1" media-type="application/xhtml+xml"/>
-    <item href="SECTIONS/1_capitulo_2.xhtml" id="1_capitulo_2" media-type="application/xhtml+xml"/>
-    <item href="cover.pdf" id="image_cover" media-type="application/pdf"/>
+    <item href="css/style.css" id="css" media-type="text/css"/>
   </manifest>
-  <spine>
+  <spine toc="ncx">
     <itemref idref="toc"/>
-    <itemref idref="0_capitulo_1"/>
-    <itemref idref="1_capitulo_2"/>
   </spine>
   <guide>
     <reference type="toc" title="Table of Contents" href="toc.xhtml"/>

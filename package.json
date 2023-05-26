@@ -1,8 +1,8 @@
 {
   "name": "epub-composer",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Light library to creat epub files",
-  "main": "src/index.js",
+  "main": "lib/dist/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,8 +14,7 @@
     "epub"
   ],
   "type": "module",
-  "module": "src/index.js",
-  
+  "module": "lib/dist/app.js",
   "author": "Maks Machado",
   "license": "MIT",
   "bugs": {
@@ -24,6 +23,7 @@
   "homepage": "https://github.com/maksmachado/epub-composer#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
+    "image-size": "^1.0.2",
     "jszip": "^3.10.1",
     "xml2js": "^0.5.0"
   }

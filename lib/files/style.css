@@ -27,3 +27,21 @@ hr {
     border-bottom: 1px solid #dedede;
     margin: 60px 10%;
 }
+
+ol {
+    counter-reset: item;
+}
+
+li {
+    display: block;
+
+}
+
+li::before {
+    content: counters(item, ".") " ";
+    counter-increment: item
+}
+
+li > ol {
+    padding-left: 20px;
+}
