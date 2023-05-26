@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img href="https://gateway.pinata.cloud/ipfs/QmPa8v4dioWRKRssuB6afS7GEM29MV84m98jx5fhQSEJZj" />
+    <img alt="Epub Composer" src="https://gateway.pinata.cloud/ipfs/QmPa8v4dioWRKRssuB6afS7GEM29MV84m98jx5fhQSEJZj" />
 </h1>
 <p align="center">Light library to creat epub files</p>
 
