@@ -46,7 +46,8 @@ epubComposer.compose(filePath);
 
     **Inside Cover Object:**
     - `path`: File path eg. `"image/cover.jpg"` (required)
-    - `includeInToc`: If true, will show Cover in Table Of Contentes (Optional) => default: `false`;
+    - `includeInToc`: If true, will show Cover in Table Of Contents (Optional) => default: `false`;
+    - `title`: If `includeInToc` is defined as "true", then you can define the name that will appear in the Table of Contents (Optional) => default: `Cover`;
 
 - `toc`: Object containing Table Of Content options (optional)
 
