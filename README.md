@@ -52,7 +52,6 @@ epubComposer.compose(filePath);
 
     **Inside Toc Object**
     - `title`: Title of the Table of Contents (optional) => default: `Table Of Contents`;
-    - `excludeFromSpine`: If true, will remove Table of content from navigation flow (optional) => default: `false`;
 - `content`: Book Chapters content. It's must be a array of objects (required).
 
     **Inside Content Objects**
@@ -98,13 +97,13 @@ If you want to add some images to your e-book, simply add the `<img>` tag at the
 ## Subtitles
 
 It is possible to track subtitles in the Table of Contents. To do this, simply insert your subtitle within an `<h>` tag and add the `data-ec-role` attribute with the value "subtitle". This library only supports one level of subtitles.
-### Example
+### Example:
 ```html
 <h3 data-ec-role="subtitle"> Your subtitle </h3>
 ```
 
 ## Pro version
-This version includes an epub Composer credit page. To have permission to remove this page, consider purchasing the pro version of epub Composer at the link below:
+This version includes an Epub Composer credit page. To have permission to remove this page, consider purchasing the pro version of Epub Composer at the link below:
 
 https://app.privjs.com/buy/packageDetail?pkg=epub-composer
 
