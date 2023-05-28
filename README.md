@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Epub Composer" src="https://gateway.pinata.cloud/ipfs/QmPa8v4dioWRKRssuB6afS7GEM29MV84m98jx5fhQSEJZj" />
+    <img alt="Epub Composer" src="https://gateway.pinata.cloud/ipfs/QmNMaCvYR8bzz8gehRwNokUVd7knU2ReYVdYrTHCcs5XDi" />
 </h1>
 <p align="center">Light library to creat epub files</p>
 
@@ -90,6 +90,23 @@ const epubComposer = new EpubComposer(options);
 
 epubComposer.compose("path/of/file.epub");
 ```
+
+## Images
+
+If you want to add some images to your e-book, simply add the `<img>` tag at the desired location and point the `src` attribute to the image path. This library does not support HTTP or HTTPS requests, so the image must be stored locally.
+
+## Subtitles
+
+It is possible to track subtitles in the Table of Contents. To do this, simply insert your subtitle within an `<h>` tag and add the `data-ec-role` attribute with the value "subtitle". This library only supports one level of subtitles.
+### Example
+```html
+<h3 data-ec-role="subtitle"> Your subtitle </h3>
+```
+
+## Pro version
+This version includes an epub Composer credit page. To have permission to remove this page, consider purchasing the pro version of epub Composer at the link below:
+
+https://app.privjs.com/buy/packageDetail?pkg=epub-composer
 
 
 
